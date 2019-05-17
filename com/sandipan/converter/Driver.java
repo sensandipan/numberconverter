@@ -19,8 +19,8 @@ public class Driver {
 	        };
 
 	        String[] strValues = new String[] {
-	            "0001.2",
-	            "3.141"
+	            "00567.782",
+	            "-7893.3891"
 	        };
 	        
 	        for (long val : values) {
