@@ -10,7 +10,6 @@ public class Unit extends Placevalue {
 	        @Override
 	        public String getName(String value) {
 	            StringBuilder buffer = new StringBuilder();
-
 	            int offset = NO_VALUE;
 	            int number;
 	            if (value.length() > 3) {

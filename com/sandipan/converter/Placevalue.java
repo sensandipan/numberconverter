@@ -38,10 +38,10 @@ public abstract class Placevalue {
 
     public Scalar scale = Scalar.SHORT;
     protected List<Integer> getDigits(long value) {
-        ArrayList<Integer> digits = new ArrayList<Integer>();
-        if (value == 0) {
+    ArrayList<Integer> digits = new ArrayList<Integer>();
+    if (value == 0) {
             digits.add(0);
-        } else {
+    } else {
             while (value > 0) {
                 digits.add(0, (int) value % 10);
                 value /= 10;

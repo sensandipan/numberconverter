@@ -58,7 +58,7 @@ public class Higher extends Placevalue {
          }
 
          if (!lowName.isEmpty()) {
-             buffer.append(lowName);
+           buffer.append(lowName);
          }
 
          return buffer.toString();

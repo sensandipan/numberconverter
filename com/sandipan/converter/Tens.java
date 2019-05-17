@@ -7,7 +7,6 @@ public class Tens extends Placevalue {
         };
 
         static private final String UNION_SEPARATOR = "-";
-
         private Unit unitProcessor = new Unit();
 
         @Override

@@ -4,9 +4,7 @@ public class Default extends Placevalue {
 
 	static private String MINUS = "minus";
     static private String UNION_AND = "and";
-
     static private String ZERO_TOKEN = "zero";
-
     private Placevalue processor = new Higher(9);
 
     @Override

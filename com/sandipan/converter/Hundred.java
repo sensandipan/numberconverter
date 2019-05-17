@@ -10,7 +10,6 @@ public class Hundred extends Placevalue {
     @Override
     public String getName(String value) {
         StringBuilder buffer = new StringBuilder();
-
         int number;
         if (value.isEmpty()) {
             number = 0;

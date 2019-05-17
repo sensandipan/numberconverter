@@ -5,7 +5,6 @@ public class Driver {
 	static public Placevalue processor;
 	public static void main(String[] args) {
 		processor = new Default();
-		
 		long[] values = new long[] {
 	           
 	            0,
@@ -16,8 +15,7 @@ public class Driver {
 	            999999999,
 	            -7834,
 	            -89999
-	           
-	            
+          
 	        };
 
 	        String[] strValues = new String[] {
